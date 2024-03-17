@@ -29,11 +29,11 @@
                     </p>
                     <p>
                         <label for="strPass1">Please enter password:  </label>
-                        <input type="text" v-model="userData.strPass1">
+                        <input type="password" v-model="userData.strPass1">
                     </p>
                     <p>
                         <label for="strPass2">Please re-enter password:  </label>
-                        <input type="text" v-model="userData.strPass2">
+                        <input type="password" v-model="userData.strPass2">
                     </p>
                     <div v-if="userData.strPass1 !== userData.strPass2 && userData.strPass1 !='' && userData.strPass2 != ''">
                         <p>Passwords do not match!</p>
