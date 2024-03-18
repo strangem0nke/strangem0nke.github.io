@@ -27,9 +27,8 @@ Vue.createApp({
             }
             else if (this.inputNumber === this.secretNumber) {
                 this.msg = 'You got it!';
-                //...don't worry about this.
-                // audio = new Audio('media/hooray.mp3');
-                // audio.play();
+                audio = new Audio('media/hooray.mp3');
+                audio.play();
             }
             else {
                 this.msg = 'Test';
