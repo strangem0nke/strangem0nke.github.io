@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8" >
+        <meta name="language" content="english" >
+        <meta name="keywords" content="COS30043, Layout, Grid, CSS" >
+        <meta name="description" content="strangem0nke's COS30043 Portfolio - Week 1" >
+        <meta name="author" content="strangem0nke" >
+        <title>COS30043 Portfolio - Week 1</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+        crossorigin="anonymous">
+    </head>
+
+    <body class="bg-primary-subtle">
+    
+        <header>
+            <div class="container bg-secondary-subtle p-2 my-2 border border-black text-center">
+                <h1>COS30043 Portfolio - Week 1</h1>
+            </div>
+        </header>
+        <main>
+            <div id="app" class="container bg-secondary-subtle my-2 border border-black text-center">
+                <div>
+                    <p class="p-2">
+                        <router-link to="/">Welcome</router-link> |
+                        <router-link to="/hello">Hello World</router-link> |
+                        <router-link to="/formTask">Form Task</router-link> |
+                        <router-link to="/tableTask">Table Task</router-link>
+                    </p>
+                    <hr>
+                </div>
+                <router-view></router-view>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container bg-secondary-subtle p-2 my-2 border border-black">
+                <div class="row">
+                    <div class="col-md-8">
+                        <p><a href="index.html">Back to Index</a></p>
+                    </div>
+                    <div class="col-md-4 text-end">
+                        <p>Made by <a href="https://github.com/strangem0nke">strangemonke</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--Links to vueJS and vueJS router frameworks-->
+        <script src="https://unpkg.com/vue@3"></script>
+        <script src="https://unpkg.com/vue-router@4"></script>
+        <script src="js/week1.js"></script>
+        
+    </body>
+    
+</html>
