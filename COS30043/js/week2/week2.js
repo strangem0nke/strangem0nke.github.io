@@ -276,7 +276,7 @@ app.component('WorkshopHeader',
                     <router-link to="/workshopProto">Homepage</router-link>
                 </div>
                 <div class="col-3 p-2">
-                    <router-link to="/workshopProto/about">About </router-link>
+                    <router-link to="/workshopProto/about">About</router-link>
                 </div>
                 <div class="col-3 p-2">
                     <router-link to="/workshopProto/projects">Projects</router-link>
